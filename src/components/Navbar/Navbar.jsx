@@ -5,7 +5,10 @@ import logo from "../../assets/logo.png";
 const Navbar = () => {
   return (
     <nav className="container">
-      <img src={logo} alt="" className="logo" />
+      <div className="navlogo">
+        <img src={logo} alt="" className="logo" />
+        <h1>zeunext</h1>
+      </div>
       <ul>
         <li>
           <a href="">Home</a>
@@ -20,7 +23,7 @@ const Navbar = () => {
           <a href="">Reviews</a>
         </li>
         <li>
-          <a href="">Account</a>
+          <button className="btn">Account</button>
         </li>
       </ul>
     </nav>
