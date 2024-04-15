@@ -1,8 +1,10 @@
 .hero {
   width: 100%;
   min-height: 100vh;
-  background: rgba(9, 9, 211, 0.1);
+  background: linear-gradient(rgba(15, 20, 30, 0.5), rgba(15, 20, 30, 0.7)),
+    url(../../assets/hero.jpg);
   display: flex;
+  background-size: cover;
   align-items: center;
   justify-content: center;
 }
@@ -10,4 +12,12 @@
 .hero-text {
   text-align: center;
   max-width: 800px;
+}
+
+.hero-text h1 {
+  font-size: 3.5rem;
+}
+
+.hero-text h3 {
+  font-size: 2rem;
 }
